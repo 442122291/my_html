@@ -1,0 +1,62 @@
+
+<div class="blog-masthead">
+    <div class="container">
+        <nav class="blog-nav">
+            <a class="blog-nav-item active" href='{:U("Blog/blog")}'>主页</a>
+            <a class="blog-nav-item" href='{:U("About/about")}'>关于我</a>
+            <a class="blog-nav-item" href='{:U("Whisper/whisper")}'>碎言碎语</a>
+            <a class="blog-nav-item" href='{:U("Diary/diary")}'>个人日记</a>
+            <a class="blog-nav-item" href='{:U("Guestbook/guestbook")}'>留言板</a>
+        </nav>
+    </div>
+    <div class="btn-group pull-right">
+
+            {:W('UserInfo/getUserinfo')}
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="blog-header">
+        <h1 class="blog-title">个人博客</h1>
+        <p class="lead blog-description">真正的友谊不是一株瓜蔓，会在一夜之间蹿起来，一天之内枯萎下去。</p>
+    </div>
+
+    <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+            <div class="blog-post">
+
+                <p class="blog-post-meta"> {$content.time} <a href="#">{$content.writer}</a></p>
+                {$content.content}
+
+            </div><!-- /.Blog-post -->
+
+            <form class="form-signin" role="form" action="{:U('Guestbook/post_comment?id',array('id'=>$content['id']))}" method="post">
+                <textarea cols="70" name="msg" rows="5" id="comment_text" placeholder="请自觉遵守互联网相关的政策法规，严禁发布色情、暴力、反动的言论。" class="b-input ipt-txt" required autofocus></textarea>
+                <button type="submit" class="b-btn submit-comment">发表评论</button>
+            </form>
+            <volist name="lists" id="vo">
+                <li>
+                    <form action="{:U('Guestbook/del_comment?blog_id?id',array('blog_id'=>$content['id'],'id'=>$vo['id']))}" method="post">
+                <div class="t">
+                    <a href="#" target="_blank" >{$vo.user}</a>
+                </div>
+                <div class="content">评论：{$vo.comment}</div>
+                <div class="elinfo">
+                    <span class="floor-date">时间：{$vo.time}</span>
+                    <php>if($_SESSION['level'] == 1){</php>
+                    <div>
+                        <button type="submit" class="btn">删除此评论</button>
+                    </div>
+                    <php>}</php>
+
+                </div>
+                    </form>
+                </li>
+            </volist>
+
+
+
+

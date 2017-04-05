@@ -1,0 +1,49 @@
+
+<div class="blog-masthead">
+    <div class="container">
+        <nav class="blog-nav">
+            <a class="blog-nav-item" href='{:U("Blog/blog")}'>主页</a>
+            <a class="blog-nav-item" href='{:U("About/about")}'>关于我</a>
+            <a class="blog-nav-item" href='{:U("Whisper/whisper")}'>碎言碎语</a>
+            <a class="blog-nav-item" href='{:U("Diary/diary")}'>个人日记</a>
+            <a class="blog-nav-item active" href='{:U("Guestbook/guestbook")}'>留言板</a>
+
+        </nav>
+    </div>
+
+
+    <div class="btn-group pull-right">
+        {:W('UserInfo/getUserinfo')}
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="blog-header">
+        <h1 class="blog-title">个人博客</h1>
+        <p class="lead blog-description">真正的友谊不是一株瓜蔓，会在一夜之间蹿起来，一天之内枯萎下去。</p>
+    </div>
+
+    <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+            <volist name="messages" id="vo">
+                <div class="blog-post">
+                    <form action="{:U('Guestbook/del_message?id',array('id'=>$vo['mes_id']))}" method="post">
+                    <p class="blog-post-meta">{$vo.time} by {$vo.user}</p>
+                    <p>留言：{$vo.message}</p>
+                    <button type="submit" class="btn">删除此留言</button>
+                    </form>
+                </div>
+            </volist>
+
+            <nav>
+                <ul class="pager">
+                    {$page}
+
+                </ul>
+            </nav>
+
+
+

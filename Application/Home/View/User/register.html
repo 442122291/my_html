@@ -1,0 +1,107 @@
+
+<title>我的博客</title>
+
+<!-- Bootstrap core CSS -->
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="__PUBLIC__/css/blog.css" rel="stylesheet">
+
+
+<script src="__PUBLIC__/js/ie-emulation-modes-warning.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div class="blog-masthead">
+    <div class="container">
+        <nav class="blog-nav">
+            <a class="blog-nav-item " href='{:U("Blog/blog")}'>主页</a>
+            <a class="blog-nav-item" href='{:U("About/about")}'>关于我</a>
+            <a class="blog-nav-item" href='{:U("Whisper/whisper")}'>碎言碎语</a>
+            <a class="blog-nav-item" href='{:U("Diary/diary")}'>个人日记</a>
+            <a class="blog-nav-item" href='{:U("Guestbook/guestbook")}'>留言板</a>
+        </nav>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="blog-header">
+        <h1 class="blog-title">个人博客</h1>
+
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-sm-8 blog-main">
+            <div class="content">
+                <div class="content-header"><h3>用户注册</h3>
+                </div>
+                <div class="content-list">
+                    <form class="form-horizontal" id="register_form" method="post" action="{:U('User/doRegister')}">
+                        <fieldset>
+                            <div class="control-group">
+                                <!-- Text input-->
+                                <label class="control-label" for="input01">账&nbsp;&nbsp;&nbsp;&nbsp;号</label>
+                                <div class="controls">
+                                    <input type="text" name="st_name" placeholder="请输入您的账号名" class="input-xlarge">
+                                    <p class="help-block">账号会显示为您的常用昵称</p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+
+                                <!-- Text input-->
+                                <label class="control-label" for="input01">邮&nbsp;&nbsp;&nbsp;&nbsp;箱</label>
+                                <div class="controls">
+                                    <input type="text" id='register_email' name="email" placeholder="请输入您常用的邮箱账号" class="input-xlarge">
+                                    <p class="help-block" id='register_email_str'>请输入您常用的邮箱账号</p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <!-- Text input-->
+                                <label class="control-label" for="input01">密&nbsp;&nbsp;&nbsp;&nbsp;码</label>
+                                <div class="controls">
+                                    <input type="password" name="st_password" id="register_pwd1" placeholder="请输入您的密码" class="input-xlarge">
+                                    <p class="help-block" id="register_pwd1_str">请输入您的密码</p>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <!-- Text input-->
+                                <label class="control-label" for="input01">确认密码</label>
+                                <div class="controls">
+                                    <input type="password" name="password1" id="register_pwd2" placeholder="请再次输入您的密码" class="input-xlarge">
+                                    <p class="help-block" id="register_pwd2_str">确认您的密码安全</p>
+                                </div>
+                            </div><div class="control-group">
+                            <label class="control-label"></label>
+
+                            <!-- Button -->
+                            <div class="controls">
+                                <!--id="register_form"-->
+                                <a id='register_sub_btn' class="btn btn-info" >点我注册</a>
+                                <a class="btn" href='{:U("User/login")}'>登录</a>
+
+                            </div>
+                        </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+
+            <nav>
+                <ul class="pager">
+                    {$page}
+
+                </ul>
+            </nav>
+
+

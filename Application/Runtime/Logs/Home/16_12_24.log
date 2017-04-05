@@ -1,0 +1,680 @@
+[ 2016-12-24T11:57:48+08:00 ] ::1 /my_html/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013679s ]
+
+[ 2016-12-24T11:57:50+08:00 ] ::1 /my_html/Blog/blog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+ERR: Failed to connect to: localhost:27017: ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2016-12-24T11:57:51+08:00 ] ::1 /my_html/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+
+[ 2016-12-24T11:57:53+08:00 ] ::1 /my_html/Blog/blog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+ERR: Failed to connect to: localhost:27017: ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2016-12-24T11:58:06+08:00 ] ::1 /my_html/Blog/blog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: my_blog.getCollection(content) [ RunTime:0.0001s ]
+SQL: my_blog.content.count() [ RunTime:0.0011s ]
+SQL: my_blog.content.find({}).limit(5) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined index: isLogin D:\wamp\www\my_html\Application\Home\Widget\UserInfoWidget.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.045287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025302s ]
+
+[ 2016-12-24T11:58:06+08:00 ] ::1 /my_html/PublicPublic/js/docs.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+ERR: 非法操作:js
+
+[ 2016-12-24T11:58:12+08:00 ] ::1 /my_html/About/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined index: isLogin D:\wamp\www\my_html\Application\Home\Widget\UserInfoWidget.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.019215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-12-24T11:58:12+08:00 ] ::1 /my_html/PublicPublic/js/docs.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+ERR: 非法操作:js
+
+[ 2016-12-24T11:58:12+08:00 ] ::1 /my_html/Whisper/whisper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2016-12-24T11:58:12+08:00 ] ::1 /my_html/PublicPublic/js/docs.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+ERR: 非法操作:js
+
+[ 2016-12-24T11:58:13+08:00 ] ::1 /my_html/Diary/diary.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined index: isLogin D:\wamp\www\my_html\Application\Home\Widget\UserInfoWidget.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.021657s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2016-12-24T11:58:13+08:00 ] ::1 /my_html/PublicPublic/js/docs.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+ERR: 非法操作:js
+
+[ 2016-12-24T11:58:13+08:00 ] ::1 /my_html/Guestbook/guestbook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Undefined index: isLogin D:\wamp\www\my_html\Application\Home\Widget\UserInfoWidget.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.040626s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000962s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2016-12-24T11:58:14+08:00 ] ::1 /my_html/PublicPublic/js/docs.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+ERR: 非法操作:js
+
+[ 2016-12-24T11:58:16+08:00 ] ::1 /my_html/Blog/blog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: my_blog.getCollection(content) [ RunTime:0.0001s ]
+SQL: my_blog.content.count() [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Undefined index: isLogin D:\wamp\www\my_html\Application\Home\Widget\UserInfoWidget.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2016-12-24T11:58:16+08:00 ] ::1 /my_html/PublicPublic/js/docs.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+ERR: 非法操作:js
+
+[ 2016-12-24T11:58:16+08:00 ] ::1 /my_html/About/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined index: isLogin D:\wamp\www\my_html\Application\Home\Widget\UserInfoWidget.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2016-12-24T11:58:16+08:00 ] ::1 /my_html/PublicPublic/js/docs.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+ERR: 非法操作:js
+
+[ 2016-12-24T11:58:18+08:00 ] ::1 /my_html/Blog/blog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: my_blog.getCollection(content) [ RunTime:0.0001s ]
+SQL: my_blog.content.count() [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8] Undefined index: isLogin D:\wamp\www\my_html\Application\Home\Widget\UserInfoWidget.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010779s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2016-12-24T11:58:18+08:00 ] ::1 /my_html/PublicPublic/js/docs.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+ERR: 非法操作:js
+
+[ 2016-12-24T11:59:12+08:00 ] ::1 /my_html/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2016-12-24T11:59:15+08:00 ] ::1 /my_html/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\my_html\Application\Runtime\Cache\Home\3359adbadf95118621a5c500fb3ff893.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-12-24T11:59:15+08:00 ] ::1 /my_html/PublicPublic/js/docs.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+ERR: 非法操作:js
+
+[ 2016-12-24T11:59:17+08:00 ] ::1 /my_html/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2016-12-24T11:59:22+08:00 ] ::1 /my_html/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+ERR: 非法操作:doLogin
+
+[ 2016-12-24T12:00:26+08:00 ] ::1 /my_html/Blog/blog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: my_blog.getCollection(content) [ RunTime:0.0001s ]
+SQL: my_blog.content.count() [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined index: isLogin D:\wamp\www\my_html\Application\Home\Widget\UserInfoWidget.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006487s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000719s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001493s ]
+
+[ 2016-12-24T12:00:26+08:00 ] ::1 /my_html/PublicPublic/js/docs.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+ERR: 非法操作:js
+
+[ 2016-12-24T12:00:30+08:00 ] ::1 /my_html/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2016-12-24T12:00:34+08:00 ] ::1 /my_html/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: my_blog.getCollection(user) [ RunTime:0.0001s ]
+SQL: my_blog.user.find({"st_name":"liuhan","st_password":"1234"}).limit(1) [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: level D:\wamp\www\my_html\Application\Home\Controller\UserController.class.php 第 38 行.
+
+[ 2016-12-24T12:00:35+08:00 ] ::1 /my_html/Blog/blog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: my_blog.getCollection(content) [ RunTime:0.0001s ]
+SQL: my_blog.content.count() [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009970s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000507s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-12-24T12:00:35+08:00 ] ::1 /my_html/PublicPublic/js/docs.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+ERR: 非法操作:js
+
+[ 2016-12-24T12:00:44+08:00 ] ::1 /my_html/Content/content/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: my_blog.getCollection(content) [ RunTime:0.0000s ]
+SQL: my_blog.content.find({"id":"4"}).limit(1) [ RunTime:0.0001s ]
+SQL: my_blog.getCollection(comment) [ RunTime:0.0000s ]
+SQL: my_blog.comment.count() [ RunTime:0.0004s ]
+SQL: my_blog.comment.find({"blog_id":"4"}).limit(5) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.040602s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001820s ]
+
+[ 2016-12-24T12:00:44+08:00 ] ::1 /my_html/PublicPublic/js/docs.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+ERR: 非法操作:js
+
+[ 2016-12-24T12:00:51+08:00 ] ::1 /my_html/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-12-24T12:00:53+08:00 ] ::1 /my_html/Blog/blog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: my_blog.getCollection(content) [ RunTime:0.0001s ]
+SQL: my_blog.content.count() [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] Undefined index: isLogin D:\wamp\www\my_html\Application\Home\Widget\UserInfoWidget.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2016-12-24T12:00:53+08:00 ] ::1 /my_html/PublicPublic/js/docs.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+ERR: 非法操作:js
+

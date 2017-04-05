@@ -1,0 +1,23 @@
+[ 2017-01-09T17:33:33+08:00 ] ::1 /my_html/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033576s ]
+
+[ 2017-01-09T17:33:36+08:00 ] ::1 /my_html/Blog/blog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+NOTIC: [8] Undefined index: level D:\wamp\www\my_html\Application\Home\Controller\BlogController.class.php ç¬¬ 17 è¡Œ.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php ç¬¬ 17 è¡Œ.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\wamp\www\my_html\ThinkPHP\Library\Think\Model\MongoModel.class.php ç¬¬ 17 è¡Œ.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php ç¬¬ 18 è¡Œ.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\wamp\www\my_html\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php ç¬¬ 18 è¡Œ.
+ERR: Failed to connect to: localhost:27017: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+
+

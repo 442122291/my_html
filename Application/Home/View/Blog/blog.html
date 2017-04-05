@@ -1,0 +1,54 @@
+
+<div class="blog-masthead">
+    <div class="container">
+        <nav class="blog-nav">
+            <a class="blog-nav-item active" href='{:U("Blog/blog")}'>主页</a>
+            <a class="blog-nav-item" href='{:U("About/about")}'>关于我</a>
+            <a class="blog-nav-item" href='{:U("Whisper/whisper")}'>碎言碎语</a>
+            <a class="blog-nav-item" href='{:U("Diary/diary")}'>个人日记</a>
+            <a class="blog-nav-item" href='{:U("Guestbook/guestbook")}'>留言板</a>
+
+        </nav>
+    </div>
+
+
+    <div class="btn-group pull-right">
+        {:W('UserInfo/getUserinfo')}
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="blog-header">
+        <h1 class="blog-title">个人博客</h1>
+        <p class="lead blog-description">真正的友谊不是一株瓜蔓，会在一夜之间蹿起来，一天之内枯萎下去。</p>
+    </div>
+
+    <div class="row">
+
+        <div class="col-sm-8 blog-main">
+            <volist name="lists" id="vo">
+
+            <div class="blog-post">
+                <form class="form-signin" role="form" action="{:U('Blog/del_blog?id',array('id'=>$vo['id']))}" method="post">
+                <h2 class="blog-post-title"><a href="{:U('Content/content?id',array('id'=>$vo['id']))}" target="_blank">{$vo.title}</a></h2>
+                    <php>if($_SESSION['level'] == 1){</php>
+                    <a href="{:U('Blog/modify_blog?id',array('id'=>$vo['id']))}" target="_blank">修改博文</a>
+                    <php>}</php>
+                    <p class="blog-post-meta">{$vo.time} by {$vo.writer}</p>
+                <p>{$vo.description}</p>
+                    <php>if($_SESSION['level'] == 1){</php>
+                        <button type="submit" class="btn btn-warning">删除博文</button>
+                    <php>}</php>
+                </form>
+            </div>
+            </volist>
+
+            <nav>
+                <ul class="pager">
+                    {$page}
+                </ul>
+            </nav>
+
+
+
